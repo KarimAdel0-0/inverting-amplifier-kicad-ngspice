@@ -55,7 +55,7 @@ Purpose: characterize gain and phase vs. frequency (Bode plot), and observe the 
 ### 2.3 Transient Analysis
 Purpose: observe how the amplifier tracks and updates the output in time, and check for any dynamic distortion (slew-rate limiting, clipping).
 
-`results/generic_opamp/TRANS_analysis.png`
+results/generic_opamp/TRANS_analysis.png 
 
 - 1 kHz, 1 Vpk sine input → output is an inverted sine at ≈10 Vpk
 - Output visibly saturates near ±10 V, since the theoretical gain-of-10 output would reach ±10 V, close to the supply rail headroom — a useful reminder that op-amp output swing is always bounded by the supply rails (and by ROUT / output stage limitations in the model)
